@@ -43,9 +43,9 @@ This creates a **hard break** in addictive behavior.
 
 ## 🎥 Demo Video
 🔗 Unlisted YouTube Demo:  
-https://www.youtube.com/shorts/kYsuuNCw7ms
 
----
+https://youtu.be/m65almbI58Q?si=EOAvC7iq6pmcVLO3
+
 
 ## 👥 Team
 - Thakur Shanu(GitHub: shanu231005)
