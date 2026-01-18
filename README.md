@@ -43,7 +43,7 @@ This creates a **hard break** in addictive behavior.
 
 ## 🎥 Demo Video
 🔗 Unlisted YouTube Demo:  
-PASTE YOUR VIDEO LINK HERE
+https://www.youtube.com/shorts/kYsuuNCw7ms
 
 ---
 
