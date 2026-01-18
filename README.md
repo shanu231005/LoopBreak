@@ -1,30 +1,60 @@
-# LoopBreak – AI Digital Wellbeing Agent
+# 🛑 LoopBreak – AI Digital Wellbeing Agent
 
-LoopBreak is an AI-powered Android agent built using Droidrun.
+LoopBreak is an AI-powered Android Digital Wellbeing Agent that helps users break addictive scrolling habits.
 
-## Problem
-Short-form content apps like Instagram cause addictive usage patterns.
+It monitors Instagram usage in real time and automatically intervenes when excessive usage is detected.
 
-## Solution
-LoopBreak detects Instagram usage and automatically intervenes after
-5 minutes of continuous usage by:
-- Closing Instagram
-- Locking the phone
+---
 
-## How It Works
-- Uses Android Accessibility via Droidrun
-- Monitors active app
-- Tracks usage time
-- Executes actions automatically using ADB
+## 🎯 Problem
+Short-form content like Instagram Reels causes addictive behavior, reducing focus and productivity.
 
-## Tech Stack
+---
+
+## 💡 Solution
+LoopBreak monitors app usage using Android Accessibility + ADB.
+
+If Instagram is used continuously for **5 minutes**, LoopBreak:
+- Shows a warning
+- Force closes Instagram
+- Locks the phone temporarily
+
+This creates a **hard break** in addictive behavior.
+
+---
+
+## ⚙️ How It Works
+1. Observes current foreground app using ADB
+2. Tracks continuous Instagram usage time
+3. When limit is exceeded:
+   - Closes Instagram
+   - Locks the device
+
+---
+
+## 🛠️ Tech Stack
 - Python
-- Droidrun
-- Mobilerun Cloud
-- Android Accessibility
-- ADB
+- Android ADB
+- DroidRun
+- MobileRun Cloud
+- Android Accessibility Service
 
-## Demo
-See demo video for real-time execution.
+---
 
-Built for Droidrun DevSprint 2026.
+## 🎥 Demo Video
+🔗 Unlisted YouTube Demo:  
+PASTE YOUR VIDEO LINK HERE
+
+---
+
+## 👥 Team
+- Thakur Shanu(GitHub: shanu231005)
+- Sharma Neha (GitHub: Neha-23sn)
+
+---
+
+## 🚀 Future Improvements
+- Reel-by-reel detection
+- Custom usage limits
+- App-based dashboards
+- Parental control mode
